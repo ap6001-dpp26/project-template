@@ -1,0 +1,16 @@
+[project]
+name = "ap6001-project"
+version = "0.1.0"
+description = "AP6001 final project: <your question>"
+requires-python = ">=3.12"
+dependencies = [
+    "marimo",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "statsmodels",
+]
+
+# `uv sync` writes uv.lock with the exact versions; commit it, so that the analysis reruns with
+# the same packages. Add a package with `uv add <name>`.

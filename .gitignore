@@ -1,0 +1,14 @@
+# Raw data are downloaded by data/get_data.py, never committed
+data/raw/
+
+# Python and uv
+.venv/
+__pycache__/
+*.pyc
+
+# Quarto and marimo build folders (commit the rendered report PDF itself)
+report/.quarto/
+report/*_files/
+__marimo__/
+
+.DS_Store
